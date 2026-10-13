@@ -1,0 +1,15 @@
+{
+  "name": "blog-web-application",
+  "version": "1.0.0",
+  "description": "A complete blog app with Express, EJS, sessions, and persistent SQL storage.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "pg": "^8.13.1",
+    "sql.js": "^1.13.0"
+  }
+}
